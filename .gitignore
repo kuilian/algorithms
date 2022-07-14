@@ -13,5 +13,5 @@ gen
 .idea/jarRepositories.xml
 .idea/misc.xml
 algorithms.iml
-pom.xml
-src/
+
+
