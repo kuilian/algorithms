@@ -3,7 +3,7 @@ package novice_class_22_07_13;
 /**
  * @author Kui Lian
  * @date 2022/7/19 - 15:26
- * @Description:
+ * @Description: 对数器是通过用大量测试数据来验证算法是否正确的一种方式
  */
 public class Comp {
         //返回一个数组，长度跟值都是随机的 左闭右闭区间
