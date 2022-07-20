@@ -29,7 +29,7 @@ public class Comp {
     private static void bubbleSort(int[] arr) {
 
         //设置边界值
-        if (arr == null && arr.length < 2) {
+        if (arr == null || arr.length < 2) {
             return;
         }
         //冒泡排序
@@ -68,7 +68,7 @@ public class Comp {
     }
     private static void insertSort2(int[] arr) {
         //设置边界值
-        if (arr == null && arr.length < 2) {
+        if (arr == null || arr.length < 2) {
             return;
         }
         // 0~0之间已经是有序的了 所以从1 开始
@@ -89,7 +89,7 @@ public class Comp {
 
     private static void insertSort1(int[] arr) {
         //设置边界值
-        if (arr == null && arr.length < 2) {
+        if (arr == null || arr.length < 2) {
             return;
         }
         // 0~0之间已经是有序的了 所以从1 开始
